@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CryptoTracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>CryptoTracker 🪙</h1>
+
+  <div class="container">
+    <div class="section" id="blox">
+      <h2>Blox</h2>
+      <div class="coin-list" id="blox-list"></div>
+      <button onclick="addCoin('blox')">Voeg coin toe aan Blox</button>
+      <div class="summary" id="blox-summary"></div>
+    </div>
+
+    <div class="section" id="bitvavo">
+      <h2>Bitvavo</h2>
+      <div class="coin-list" id="bitvavo-list"></div>
+      <button onclick="addCoin('bitvavo')">Voeg coin toe aan Bitvavo</button>
+      <div class="summary" id="bitvavo-summary"></div>
+    </div>
+  </div>
+
+  <div class="total-summary" id="total-summary"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
