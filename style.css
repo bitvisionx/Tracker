@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: yellow;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section {
+  border: 1px solid yellow;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.coin {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px dashed yellow;
+  border-radius: 10px;
+}
+
+.aankoop {
+  margin: 5px 0;
+}
+
+input {
+  width: 80px;
+  margin: 5px;
+}
+
+button {
+  background: yellow;
+  color: black;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: white;
+}
+
+.total-summary {
+  margin-top: 40px;
+  font-size: 1.2em;
+}
